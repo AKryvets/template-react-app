@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "plugins": ["jest"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": "off",
+    "arrow-parens": ["error", "as-needed"]
+  }
+}
